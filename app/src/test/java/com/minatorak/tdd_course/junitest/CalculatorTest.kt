@@ -28,4 +28,8 @@ class CalculatorTest {
         assertEquals(300, calculator.multiply(10, 30))
     }
 
+    @Test
+    fun testDivisionByNonZeroNumber() {
+        assertEquals(3, calculator.divide(15, 5))
+    }
 }
