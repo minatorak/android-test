@@ -3,19 +3,19 @@ package com.minatorak.tddcourse.junitest
 class Calculator {
 
     fun add(i: Int, i1: Int): Int {
-        return 50
+        return i+i1
     }
 
     fun subtract(i: Int, i1: Int): Int {
-        return 10
+        return i-i1
     }
 
     fun multiply(i: Int, i1: Int): Int {
-        return 300
+        return i*i1
     }
 
     fun divide(i: Int, i1: Int): Int {
-        return 3
+        return i/i1
     }
 
 }
