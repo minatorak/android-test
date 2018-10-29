@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course
+package com.minatorak.tddcourse
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -1,20 +1,26 @@
-package com.minatorak.tdd_course.junitest;
+package com.minatorak.tddcourse.junitest;
 
-import junit.framework.Assert.assertEquals
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 
 class CalculatorTest {
 
     @Test
-    private fun testAddingTwoPositiveNumbers() {
+    fun testAddingTwoPositiveNumbers() {
         val calculator = Calculator()
         assertEquals(50,calculator.add(20,30));
     }
 
     @Test
-    private fun testSubtractionPositiveNumbers() {
+    fun testSubtractionPositiveNumbers() {
         val calculator =Calculator()
         assertEquals(10,calculator.subtract(20,10))
+    }
+
+    @Test
+    fun testMultiplicationForTwoPositiveNumber(){
+        val calculator = Calculator()
+        assertEquals(300,calculator.multiply(10,30))
     }
 }

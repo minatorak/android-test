@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course
+package com.minatorak.tddcourse
 
 import org.junit.Test
 

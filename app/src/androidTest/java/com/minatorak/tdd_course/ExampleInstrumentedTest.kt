@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course
+package com.minatorak.tddcourse
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.minatorak.tdd_course", appContext.packageName)
+        assertEquals("com.minatorak.tddcourse", appContext.packageName)
     }
 }

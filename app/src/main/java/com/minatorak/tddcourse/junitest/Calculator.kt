@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.junitest
+package com.minatorak.tddcourse.junitest
 
 class Calculator {
 
@@ -8,6 +8,10 @@ class Calculator {
 
     fun subtract(i: Int, i1: Int): Int {
         return 10
+    }
+
+    fun multiply(i: Int, i1: Int): Int {
+        return 300
     }
 
 }
