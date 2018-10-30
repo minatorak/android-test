@@ -1,5 +1,7 @@
 package com.minatorak.tddcourse.junitest
 
+import java.lang.IllegalArgumentException
+
 class Calculator {
 
     fun add(i: Int, i1: Int): Int {
@@ -15,6 +17,7 @@ class Calculator {
     }
 
     fun divide(i: Int, i1: Int): Int {
+        if (i1 == 0) throw IllegalArgumentException("This can not be zero number")
         return i/i1
     }
 

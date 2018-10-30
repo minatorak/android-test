@@ -3,6 +3,7 @@ package com.minatorak.tddcourse.junitest;
 import junit.framework.TestCase.assertEquals
 import org.junit.Before
 import org.junit.Test
+import java.lang.IllegalArgumentException
 
 
 class CalculatorTest {
@@ -32,4 +33,10 @@ class CalculatorTest {
     fun testDivisionByNonZeroNumber() {
         assertEquals(3, calculator.divide(15, 5))
     }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun testDivisionNonZeroNumber() {
+        assertEquals(3, calculator.divide(15, 0))
+    }
+
 }
