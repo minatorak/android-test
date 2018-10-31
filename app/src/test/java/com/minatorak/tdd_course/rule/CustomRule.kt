@@ -17,7 +17,9 @@ class CustomRule : TestRule {
     override fun apply(base: Statement?, description: Description?): Statement? {
 
         logger = Logger.getLogger(CustomRule::class.java.simpleName + ": this is my custom rule")
-        return null
+
+        base?.evaluate()
+        return base
     }
 
 }
