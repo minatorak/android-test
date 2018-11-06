@@ -2,7 +2,7 @@ package com.minatorak.tddcourse.junitest
 
 class NoteTakingManager(private var service: NoteTakingService) {
 
-    fun getAllBusinessNotes(): List<String>? {
+    fun getAllBusinessNotes(): List<String> {
         val filter = mutableListOf<String>()
         val allNote = service.getAllBusinessNotes()
 
