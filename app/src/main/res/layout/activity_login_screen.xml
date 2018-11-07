@@ -7,4 +7,11 @@
         android:layout_height="match_parent"
         tools:context=".LoginScreenActivity">
 
+    <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_username"/>
+    
+
 </android.support.constraint.ConstraintLayout>

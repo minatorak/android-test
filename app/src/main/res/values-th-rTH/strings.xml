@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_username">ระบุชื่อผู้ใช้งาน</string>
+    <string name="app_name">Test Driven Development</string>
+</resources>

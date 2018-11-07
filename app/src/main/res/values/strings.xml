@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TDD-Course</string>
+    <string name="enter_your_username">enter your username</string>
+    <string name="app_name">Test Driven Development</string>
 </resources>
