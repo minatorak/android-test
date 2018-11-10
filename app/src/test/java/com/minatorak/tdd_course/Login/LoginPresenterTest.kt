@@ -6,9 +6,13 @@ import org.junit.Test
 import org.mockito.Mockito.mock
 
 class LoginPresenterTest {
+
+    val USERNAME_DUMMY: String = "Random"
+    val PASSWORD_DUMMY: String = "1234"
+
     @Test
     fun checkUserCanGoToTheMainScreenIfTheCredentialsAreCorrect() {
-        val mockView = mock(LoginView::class.java)
+        val mockView: LoginView = mock(LoginView::class.java)
         val loginPresenter = LoginPresenter(mockView)
     }
 
