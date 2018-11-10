@@ -1,5 +1,5 @@
 package com.minatorak.tddcourse.login
 
-class LoginPresenter{
+class LoginPresenter(viewActivity: LoginView) {
 
 }
