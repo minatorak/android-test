@@ -6,4 +6,6 @@ interface LoginView {
 
     fun showErrorMsg()
 
+    fun showAttemptsErrorMsg()
+
 }

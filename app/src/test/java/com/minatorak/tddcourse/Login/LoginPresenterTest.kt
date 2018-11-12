@@ -14,6 +14,9 @@ class LoginPresenterTest {
     private val usernameDummy: String = "Random"
     private val passwordDummy: String = "1234"
 
+    private val wrongUsername: String = "Maria"
+    private val wrongPassword: String = "PASSWORD"
+
     @Before
     fun setup() {
         mockView = mock(LoginView::class.java)
@@ -29,12 +32,16 @@ class LoginPresenterTest {
 
     @Test
     fun checkUserHaveErrorWrongCredential() {
-        val wrongUsername: String = "Maria"
-        val wrongPassword: String = "Maria"
-
         loginPresenter.login(wrongUsername, wrongPassword)
         verify(mockView).showErrorMsg()
     }
 
+    @Test
+    fun checkUserWillGetErrorMsgWhenWrongAccountOverTime() {
+        loginPresenter.login(wrongUsername,wrongPassword)
+        loginPresenter.login(wrongUsername,wrongPassword)
+        loginPresenter.login(wrongUsername,wrongPassword)
+        verify(mockView).showAttemptsErrorMsg()
+    }
 
 }

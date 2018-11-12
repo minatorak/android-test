@@ -5,6 +5,10 @@ import android.os.Bundle
 import com.minatorak.tddcourse.R
 
 class LoginScreenActivity : AppCompatActivity() , LoginView{
+    override fun showAttemptsErrorMsg() {
+
+    }
+
     override fun gotoMainScreen() {
 
     }
