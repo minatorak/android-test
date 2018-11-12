@@ -9,6 +9,9 @@ class LoginPresenter(private val viewActivity: LoginView) {
         if (usernameDummy == username && passwordDummy == password) {
             viewActivity.gotoMainScreen()
         }
+        else {
+            viewActivity.showErrorMsg()
+        }
     }
 
 }

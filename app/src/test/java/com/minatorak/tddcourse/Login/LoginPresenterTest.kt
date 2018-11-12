@@ -33,6 +33,8 @@ class LoginPresenterTest {
         val wrongPassword: String = "Maria"
 
         loginPresenter.login(wrongUsername, wrongPassword)
-        verify(mockView)
+        verify(mockView).showErrorMsg()
     }
+
+
 }
