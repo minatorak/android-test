@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.spytest
+package com.minatorak.tddcourse.spytest
 
 import org.junit.Assert
 import org.junit.Test

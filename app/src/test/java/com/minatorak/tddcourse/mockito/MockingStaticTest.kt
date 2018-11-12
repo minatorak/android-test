@@ -1,6 +1,5 @@
-package com.minatorak.tdd_course.mockito
+package com.minatorak.tddcourse.mockito
 
-import com.minatorak.tddcourse.mockito.Person
 import org.junit.Test
 import org.mockito.Mockito.mock
 

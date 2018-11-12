@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.notetaking
+package com.minatorak.tddcourse.notetaking
 
 import org.junit.Test
 import org.junit.runner.RunWith

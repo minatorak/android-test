@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.rule
+package com.minatorak.tddcourse.rule
 
 import org.junit.Rule
 import org.junit.Test

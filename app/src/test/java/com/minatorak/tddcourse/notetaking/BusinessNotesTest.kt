@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.notetaking
+package com.minatorak.tddcourse.notetaking
 
 import com.minatorak.tddcourse.junitest.NoteTakingManager
 import com.minatorak.tddcourse.junitest.NoteTakingService

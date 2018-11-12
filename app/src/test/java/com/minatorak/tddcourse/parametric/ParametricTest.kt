@@ -1,4 +1,4 @@
-package com.minatorak.tdd_course.parametric
+package com.minatorak.tddcourse.parametric
 
 import com.minatorak.tddcourse.junitest.Calculator
 import junit.framework.TestCase.assertEquals
